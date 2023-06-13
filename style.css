@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    min-height: 40px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    color: white;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0499ff;
+}
+
+
+.name {
+    display: block;
+    margin-right: auto;
+
+}
+
+header {
+    width: 100%;
+    background-image: url(https://w0.peakpx.com/wallpaper/271/9/HD-wallpaper-video-game-genshin-impact-inazuma-genshin-impact.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header img {
+    border-radius: 50%;
+    border: 2px solid #000;
+    width: 150px;
+    height: 150px;
+    transition: all .5s;
+}
+
+.tag {
+    background-color: #ffff;
+    display: table;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sub-title {
+    background-color: #000;
+    color: yellow;
+}
+
+.content {
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.card {
+    max-width: 500px;
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 3px solid grey;
+    border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+}
+
+.tag-list {
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    color: #ffff;
+}
+
+.tag-yellow {
+    background-color: rgb(255, 166, 0);
+}
+
+.tag-blue {
+    background-color: rgba(14, 94, 214, 0.658);
+}
+
+header img:hover {
+    transform: scale(1.4) rotate(5deg);
+}
