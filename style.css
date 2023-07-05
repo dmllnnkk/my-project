@@ -42,7 +42,7 @@ a {
 
 header {
     width: 100%;
-    background-image: url(https://w0.peakpx.com/wallpaper/271/9/HD-wallpaper-video-game-genshin-impact-inazuma-genshin-impact.jpg);
+    background-image: url(./image0\ \(1\).jpeg);
     background-size: cover;
     height: 400px;
     text-align: center;
@@ -110,4 +110,18 @@ footer {
 
 header img:hover {
     transform: scale(1.4) rotate(5deg);
+}
+
+.transition {
+  transition: background-color 0.5s linear;
+}
+
+.button:hover {
+background-color: gray;
+}
+
+.instagram:hover {
+    background-color: rgb(20, 32, 49);
+    padding: 10px;
+    border-radius: 5px;
 }
